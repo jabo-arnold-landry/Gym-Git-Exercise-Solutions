@@ -36,3 +36,18 @@ Switched to a new branch 'test'
 > git branch -D test
 Deleted branch test (was 0b566d1).
 ```
+
+## Bundle 1
+
+### exercise 2
+
+```bash
+> git stash
+> git stash pop
+> git pop stash@{0}
+> git pop stash@{1}
+> git pop stash@{2}
+> git add .
+> git commit -m 'added-home-and-about'
+> git reset --hard
+```
