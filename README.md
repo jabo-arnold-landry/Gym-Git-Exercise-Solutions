@@ -65,3 +65,8 @@ Deleted branch test (was 0b566d1).
  # Task checklist
 - [x] made some changes to existing pages
 - [x] added services page
+## Bundle 2
+
+### exercise 2
+> git pull origin
+> git checkout -b ft/service-redesign
