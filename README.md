@@ -51,3 +51,17 @@ Deleted branch test (was 0b566d1).
 > git commit -m 'added-home-and-about'
 > git reset --hard
 ```
+## Bundle 2
+
+### exercise 1
+
+```bash
+> git checkout -b ft/bundle-2
+> git commit -m 'added-services-page
+> git push origin -u ft/bundle-2
+```
+ ## example of PR description
+ 
+ # Task checklist
+- [x] made some changes to existing pages
+- [x] added services page
