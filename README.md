@@ -89,3 +89,13 @@ git revert 07c8da9c74c395eecf646210c0bae8216f73ea65
 git checkout -b  ft/faq-page
 git revert 2c8fef0
 ```
+
+## Bundle 3
+
+### exercise 2
+
+```bash
+git checkout -b ft/home-page-redesign
+ git rebase main
+Successfully rebased and updated refs/heads/ft/home-page-redesign.
+```
