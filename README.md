@@ -25,15 +25,15 @@ $ git remote add origin https://github.com/jabo-arnold-landry/Gym-Git-Exercise-S
 Gym Git Exercise Solutions (main)
 $ git pull origin main
 From https://github.com/jabo-arnold-landry/Gym-Git-Exercise-Solutions
- * branch            main       -> FETCH_HEAD
+ * branch            main       -FETCH_HEAD
 
-> git add .
-> git commit -m 'first-exercises'
-> git checkout -b dev
+git add .
+git commit -m 'first-exercises'
+git checkout -b dev
 Switched to a new branch 'dev'
-> git checkout -b test
+git checkout -b test
 Switched to a new branch 'test'
-> git branch -D test
+git branch -D test
 Deleted branch test (was 0b566d1).
 ```
 
@@ -42,14 +42,14 @@ Deleted branch test (was 0b566d1).
 ### exercise 2
 
 ```bash
-> git stash
-> git stash pop
-> git pop stash@{0}
-> git pop stash@{1}
-> git pop stash@{2}
-> git add .
-> git commit -m 'added-home-and-about'
-> git reset --hard
+git stash
+git stash pop
+git pop stash@{0}
+git pop stash@{1}
+git pop stash@{2}
+git add .
+git commit -m 'added-home-and-about'
+git reset --hard
 ```
 
 ## Bundle 2
@@ -57,9 +57,9 @@ Deleted branch test (was 0b566d1).
 ### exercise 1
 
 ```bash
-> git checkout -b ft/bundle-2
-> git commit -m 'added-services-page
-> git push origin -u ft/bundle-2
+git checkout -b ft/bundle-2
+git commit -m 'added-services-page
+git push origin -u ft/bundle-2
 ```
 
 ## example of PR description
@@ -73,8 +73,10 @@ Deleted branch test (was 0b566d1).
 
 ### exercise 2
 
-> git pull origin
-> git checkout -b ft/service-redesign
+```bash
+git pull origin
+git checkout -b ft/service-redesign
+```
 
 ## Bundle 3
 
