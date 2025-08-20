@@ -51,6 +51,7 @@ Deleted branch test (was 0b566d1).
 > git commit -m 'added-home-and-about'
 > git reset --hard
 ```
+
 ## Bundle 2
 
 ### exercise 1
@@ -60,13 +61,29 @@ Deleted branch test (was 0b566d1).
 > git commit -m 'added-services-page
 > git push origin -u ft/bundle-2
 ```
- ## example of PR description
- 
- # Task checklist
+
+## example of PR description
+
+# Task checklist
+
 - [x] made some changes to existing pages
 - [x] added services page
+
 ## Bundle 2
 
 ### exercise 2
+
 > git pull origin
 > git checkout -b ft/service-redesign
+
+## Bundle 3
+
+### exercise 1
+
+```bash
+git checkout -b ft/team-page
+git checkout -b ft/contact-page
+git revert 07c8da9c74c395eecf646210c0bae8216f73ea65
+git checkout -b  ft/faq-page
+git revert 2c8fef0
+```
