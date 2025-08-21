@@ -89,3 +89,32 @@ git revert 07c8da9c74c395eecf646210c0bae8216f73ea65
 git checkout -b  ft/faq-page
 git revert 2c8fef0
 ```
+
+## Bundle 3
+
+### exercise 2
+
+```bash
+git checkout -b ft/home-page-redesign
+ git rebase main
+Successfully rebased and updated refs/heads/ft/home-page-redesign.
+```
+## Bundle 4
+
+### exercise 1
+
+```bash
+git remote add git-copy https://github.com/jabo-arnold-landry/Git-exercise-copy.git
+  git add .
+  git commit -m 'added-icon-on-the-page'
+  git push
+  git push git-copy
+```
+## Bundle 4
+
+### exercise 2
+
+```bash
+ git checkout -b ft/squashing
+ git merge --squash ft/footer
+```
