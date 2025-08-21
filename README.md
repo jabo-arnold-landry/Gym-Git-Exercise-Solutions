@@ -99,3 +99,14 @@ git checkout -b ft/home-page-redesign
  git rebase main
 Successfully rebased and updated refs/heads/ft/home-page-redesign.
 ```
+## Bundle 4
+
+### exercise 1
+
+```bash
+git remote add git-copy https://github.com/jabo-arnold-landry/Git-exercise-copy.git
+  git add .
+  git commit -m 'added-icon-on-the-page'
+  git push
+  git push git-copy
+```
