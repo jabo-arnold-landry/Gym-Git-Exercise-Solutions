@@ -110,3 +110,11 @@ git remote add git-copy https://github.com/jabo-arnold-landry/Git-exercise-copy.
   git push
   git push git-copy
 ```
+## Bundle 4
+
+### exercise 2
+
+```bash
+ git checkout -b ft/squashing
+ git merge --squash ft/footer
+```
