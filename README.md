@@ -118,3 +118,8 @@ git remote add git-copy https://github.com/jabo-arnold-landry/Git-exercise-copy.
  git checkout -b ft/squashing
  git merge --squash ft/footer
 ```
+## Bundle 5
+
+### exercise 1
+
+> ## published link: https://jabo-arnold-landry.github.io/Gym-Git-Exercise-Solutions/
