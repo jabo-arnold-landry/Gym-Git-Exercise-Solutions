@@ -137,3 +137,32 @@ Hp@DESKTOP-GDAGM44 MINGW64 /c/git-cafe-exercise (main)
 $ git commit -m 'feat:changing-title'
 [main a8afa6e] feat:changing-title
 ```
+
+ ## Bundle 6
+
+### exercise 1
+
+```bash
+git chekckout -b feat:exercises-1
+```
+### link to PR: https://github.com/TheGymRwanda/git-cafe-exercise/pull/625
+
+
+ ## Bundle 6
+
+### exercise 2
+
+```bash
+git checkout -b fix/index-4
+```
+### link to PR: https://github.com/TheGymRwanda/git-cafe-exercise/pull/631
+
+ ## Bundle 6
+
+### exercise 3
+
+```bash
+git checkout -b fix/hot-fix
+```
+### link to PR: https://github.com/TheGymRwanda/git-cafe-exercise/pull/632
+
