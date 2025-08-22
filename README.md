@@ -123,3 +123,17 @@ git remote add git-copy https://github.com/jabo-arnold-landry/Git-exercise-copy.
 ### exercise 1
 
 > ## published link: https://jabo-arnold-landry.github.io/Gym-Git-Exercise-Solutions/
+
+ ## Bundle 5
+
+### exercise 2
+
+```bash
+$ git clone https://github.com/jabo-arnold-landry/git-cafe-exercise.git
+Hp@DESKTOP-GDAGM44 MINGW64 /c/git-cafe-exercise (main)
+$ git add .
+
+Hp@DESKTOP-GDAGM44 MINGW64 /c/git-cafe-exercise (main)
+$ git commit -m 'feat:changing-title'
+[main a8afa6e] feat:changing-title
+```
